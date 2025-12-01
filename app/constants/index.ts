@@ -190,7 +190,7 @@ const experiences = [
     company_name: "EXIST SOFTWARE LABS",
     icon: "/company/exist.png",
     iconBg: "#ffffff",
-    date: "Sep 2019 - Dec 2022",
+    date: "May 2017 - Oct 2022",
     points: [
       "Key Highlight: Designed the platformʼs real-time messaging backbone, forming the core event-processing layer used by all enterprise clients for shipment tracking and operational visibility.",
       "Led backend development for the ShipFlow Logistics Platform, designing the full Django + React architecture and delivering scalable, reliable connections between realtime shipment data and enterprise dashboards.",
@@ -205,7 +205,7 @@ const experiences = [
     company_name: "SYTIAN IT PRODUCTIONS INC",
     icon: "/company/sytian.png",
     iconBg: "#ffffff",
-    date: "Jun 2018 - Aug 2019",
+    date: "Jun 2016 - Apr 2017",
     points: [
       "Assisted in building ETL pipelines using Azure Data Factory and Databricks, helping integrate data from ERP, CRM, and HR systems into unified workflows.",
       "Supported the development of financial and operational reports using Power BI, enabling teams to view updated metrics and business data more easily.",
