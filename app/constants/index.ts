@@ -97,11 +97,12 @@ const services = [
 
 const skills = {
   backend: [
+    "Python (Django, Flask, FastAPI)",
     "Node.js (TypeScript, JavaScript, Express.js)",
+    "Apache Kafka",
     "Java (Spring Boot)",
     "PHP (Laravel, CodeIgniter)",
     "C# (ASP.NET)",
-    "Python (Django, Flask, FastAPI)",
     "Go (Golang)",
     "gRPC",
     "NestJS",
@@ -147,6 +148,7 @@ const skills = {
     "gRPC",
     "JWT/OAuth2 Authentication",
     "WebSockets",
+    "WebRTC",
     "OpenAPI",
     "Swagger",
   ],
@@ -154,46 +156,60 @@ const skills = {
 
 const experiences = [
   {
-    title: "Senior Full Stack Engineer",
-    company_name: "SenseTime",
-    icon: "/company/sensetime.png",
-    iconBg: "#383E56",
-    date: "Jan 2023 -  Aug 2025",
+    title: "Senior Backend Engineer",
+    company_name: "CLOUDSYNC TECHNOLOGIES ",
+    icon: "/company/cloudsync.png",
+    iconBg: "#ffffff",
+    date: "May 2024 -  Oct 2025",
     points: [
-      " Project: NovaPay Fraud Detection Platform",
-      " Architected the backend infrastructure using Java 17, Spring Boot 3, Kafka, and AWS Lambda, enabling the platform to handle 2M+ events/day with sub-100ms latency.",
+      "Key Highlight: Built the automated validation engine that reduced manual review by 75% and became the core workflow for all client implementations.",
+      " Built backend services using Python (FastAPI, Django) and Node.js for document ingestion, parsing, validation, and workflow automation; added asynchronous processing with RabbitMQ and cloud queues.",
+      " Developed and improved ETL pipelines using Azure Data Factory and Azure Functions to process tax documents accurately and efficiently.",
       " Implemented event-streaming pipelines for transaction monitoring and fraud scoring, cutting detection time from 5 minutes to under 10 seconds.",
-      " Developed a secure REST/gRPC API that integrated with banking partners and internal AI models for continuous fraud prediction.",
-      "	Automated deployments via Jenkins + Terraform, reducing release time by 70% while improving reliability.",
+      " Set up CI/CD pipelines with Azure DevOps and Jenkins, using containerized workflows to speed up deployments and cut release errors by 60%; added monitoring with Azure Monitor, Datadog, and Prometheus.",
+      "	Worked with product and QA teams using Jira for sprint planning and delivery.",
       "	Most proud of: Building the core fraud analysis engine that now powers every transaction check in production — a system that directly prevents financial losses daily."
     ],
   },
   {
+    title: "Senior Backend Engineer",
+    company_name: "SENSETIME",
+    icon: "/company/sensetime.png",
+    iconBg: "#ffffff",
+    date: "Nov 2022 -  Feb 2024",
+    points: [
+      " Key Highlight: Built the core fraud analysis engine that powers all production transaction checks and prevents daily financial losses.",
+      " Designed and built backend systems for the NovaPay Fraud Detection Platform using Java 17, Spring Boot, and Kafka, supporting over 2M events per day with sub-100ms processing.",
+      " Created real-time event pipelines for transaction scoring, reducing fraud detection time from 5 minutes to under 10 seconds.",
+      " Developed a secure REST/gRPC API that integrated with banking partners and internal AI models for continuous fraud prediction.",
+      "	Automated deployments via Jenkins + Terraform, reducing release time by 70% while improving reliability.",
+    ],
+  },
+  {
     title: "Full Stack Engineer",
-    company_name: "Exist Software Labs",
+    company_name: "EXIST SOFTWARE LABS",
     icon: "/company/exist.png",
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Sep 2019 - Dec 2022",
     points: [
-      "Project: ShipFlow Logistics Tracking System",
-      "Designed and developed the Django + React architecture, connecting front-end dashboards to real-time shipment data.",
-      "Integrated RabbitMQ for asynchronous event handling, enabling 70K+ shipment updates daily without system lag.",
-      "Built geo-tracking and predictive routing modules using AWS Lambda and DynamoDB, helping reduce delivery time and fuel usage by 18%.",
-      "Led UI optimization efforts that cut average page load time by 35%, improving client satisfaction scores.",
-      "Most proud of: Designing the asynchronous messaging system that became the backbone of the platform’s real-time tracking capability."
+      "Key Highlight: Designed the platformʼs real-time messaging backbone, forming the core event-processing layer used by all enterprise clients for shipment tracking and operational visibility.",
+      "Led backend development for the ShipFlow Logistics Platform, designing the full Django + React architecture and delivering scalable, reliable connections between realtime shipment data and enterprise dashboards.",
+      "Built and maintained high-volume asynchronous workflows using RabbitMQ, supporting 70K+ shipment updates/day with low latency and stable system performance.",
+      "Developed geo-tracking, predictive routing, and delivery analytics modules using AWS Lambda, DynamoDB, and serverless patterns, helping reduce client delivery times and fuel consumption by 18%.",
+      "Improved platform performance through API optimization, database tuning, and frontend performance improvements, achieving a 35% faster load time and increasing overall user satisfaction.",
+      "• Drove CI/CD modernization using GitHub Actions, Docker, and infrastructure-as-code, enabling faster, more reliable releases and better environment consistency across development, staging, and production."
     ],
   },
   {
     title: "Software Engineer",
-    company_name: "Sytian IT Productions Inc",
+    company_name: "SYTIAN IT PRODUCTIONS INC",
     icon: "/company/sytian.png",
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Jun 2018 - Aug 2019",
     points: [
-      "Built ETL pipelines using Azure Data Factory and Databricks, integrating 15+ data sources from ERP, CRM, and HR systems.",
-      "Automated financial reporting with Power BI dashboards, giving executives live revenue insights instead of weekly static reports.",
-      "Created data quality and reconciliation checks with Azure Functions, cutting manual review time by 90%.",
-      "Most proud of: Designing the ETL validation framework that became a company-wide template for new analytics projects."
+      "Assisted in building ETL pipelines using Azure Data Factory and Databricks, helping integrate data from ERP, CRM, and HR systems into unified workflows.",
+      "Supported the development of financial and operational reports using Power BI, enabling teams to view updated metrics and business data more easily.",
+      "Performed data validation, testing, and documentation, ensuring pipeline accuracy, clean data flows, and consistent reporting for internal teams."
     ],
   },
 ];
